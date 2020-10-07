@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -41,3 +42,4 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
